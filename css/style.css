@@ -49,3 +49,10 @@ body {
     border: 2px solid black;
 }
 
+.banner2 img {
+    position: relative;
+    left: 7rem;
+    bottom: 25rem;
+    width: 96vw;
+    height: 14vh;
+}
