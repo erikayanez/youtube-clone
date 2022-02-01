@@ -5,60 +5,13 @@
 }
 
 body {
-    margin-left: 15px;
-    width: 98vw;
-    height: 100vh;
-    border: 2px solid black;
-}
-
-div {
-    border: 2px dashed salmon;
-}
-
-.top {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    justify-content: center;
-}
-.top .img3 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-header .banner img{
-    padding-left: 7rem;
-    display: grid;
-    justify-content: center;
-    width: 97vw;
-    height: 30vh;
-    border: 2px dashed green;
-}
-
-header .banner2 img {
-    padding-left: 7rem;
-    display: grid;
-    justify-content: center;
-    width: 97vw;
-    height: 15vh;
-    border: 2px dashed green;
-}
-
-.nav-left {
-    position:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    bottom: 20rem;
-    width: 5%;
-    border: 2px dashed green;
-}
-
-
-/* body {
     width: 96vw;
     height: 100vh;
+}
+.container {
+    width: 97vw;
+    height: 60vh;
+    border: 2px solid green;
 }
 
 .top {
@@ -66,8 +19,8 @@ header .banner2 img {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     justify-content: center;
-} */
-/* .top div{
+} 
+.top div{
     margin-top: 20px;
     display: flex;
     justify-content: ;
@@ -75,20 +28,20 @@ header .banner2 img {
     width: 90%;
     height: 10vh;
     border: 2px dashed gray;
-} */
-/* 
+}
+
 .top .img3 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-/* .top {
+.top {
     display: flex;
     justify-content: center;
     align-items:center;
-} */
-/* 
+} 
+
 .nav-left {
     display: flex;
     flex-direction: column;
@@ -98,38 +51,37 @@ header .banner2 img {
     border: 2px dashed green;
 }
 
-.container {
+/* .container {
     width: 96vw;
     height: 30vh;
     display: grid;
     grid-template-columns: 95px;
     grid-template-rows: 40px;
-} */ */
+} 
 
-/* .banner img {
+.banner1 .img1{
     position: relative;
     left: 7rem;
     bottom: 25rem;
     width: 90vw;
     height:25vh;
     border: 2px solid black;
-} */
+}
 
-/* .banner2 img {
+.banner2 .img2{
     position: relative;
     left: 7rem;
     bottom: 25rem;
     width: 90vw;
     height: 14vh;
     border: 2px solid red;
-} */
-/* 
+}
+ 
 main {
     position: absolute;
     width: 80vw;
-
     border: 2px dashed darkviolet;
-} */
+} */ */
 
 
 /* .main-container {
