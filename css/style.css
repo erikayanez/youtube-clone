@@ -4,6 +4,58 @@
     box-sizing: border-box;
 }
 
+body {
+    margin-left: 15px;
+    width: 98vw;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+div {
+    border: 2px dashed salmon;
+}
+
+.top {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+}
+.top .img3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .banner img{
+    padding-left: 7rem;
+    display: grid;
+    justify-content: center;
+    width: 97vw;
+    height: 30vh;
+    border: 2px dashed green;
+}
+
+header .banner2 img {
+    padding-left: 7rem;
+    display: grid;
+    justify-content: center;
+    width: 97vw;
+    height: 15vh;
+    border: 2px dashed green;
+}
+
+.nav-left {
+    position:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 20rem;
+    width: 5%;
+    border: 2px dashed green;
+}
+
+
 /* body {
     width: 96vw;
     height: 100vh;
