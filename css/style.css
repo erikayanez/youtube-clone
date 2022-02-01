@@ -31,4 +31,21 @@ body {
     align-items:center;
 }
 
+.nav-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 5%;
+    border: 2px dashed green;
+}
+
+.banner img {
+    position: relative;
+    left: 7rem;
+    bottom: 25rem;
+    width: 94vw;
+    height:25vh;
+    border: 2px solid black;
+}
 
