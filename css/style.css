@@ -63,5 +63,7 @@ body {
     height: 60vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
     border: 2px dashed black;
 }
