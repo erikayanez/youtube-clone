@@ -8,7 +8,11 @@ body {
     width: 96vw;
     height: 100vh;
 }
+
 .container {
+    
+}
+/* .container {
     width: 97vw;
     height: 60vh;
     border: 2px solid green;
@@ -49,7 +53,7 @@ body {
     align-items: center;
     width: 5%;
     border: 2px dashed green;
-}
+} */
 
 /* .container {
     width: 96vw;
