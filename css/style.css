@@ -8,9 +8,7 @@ body {
     margin-left: 10px;
     width: 98vw;
     height: 110vh;
-    border: 2px solid salmon;
 }
-
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -29,27 +27,21 @@ body {
 .top div{
     display: flex;
     align-items: center;
-    border: 2px dashed gray;
 }
-
 .top .img3 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 .nav-left {
     grid-area: about;
 }
-
 .banner1 {
     grid-area: main;
 }
-
 .banner2 {
     grid-area: footer;
 }
-
 .main-container {
     margin-left: 8rem;
     width: 90vw;
@@ -57,10 +49,9 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-content: flex-end;
-    align-items: center; 
-    border: 2px dashed black;
+    align-items: center;
+    background-color: whitesmoke; 
 }
-
 .main-container div {
     display: flex;
     justify-content: center;
