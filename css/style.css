@@ -7,19 +7,18 @@
 body {
     margin-left: 10px;
     width: 98vw;
-    height: 120vh;
+    height: 110vh;
     border: 2px solid salmon;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 10vh 26vh 10vh 7vh;
+    grid-template-rows: 10vh 18vh 10vh 7vh;
     grid-template-areas: 
     "menu menu"
     "about main"
     "about footer"
-    "about nav";
 }
 .top {
     grid-area: menu;
@@ -51,9 +50,8 @@ body {
     grid-area: footer;
 }
 
-
 .main-container {
-   grid-area: nav;
+    margin-left: 8rem;
     width: 90vw;
     height: 60vh;
     display: grid;
