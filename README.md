@@ -7,6 +7,7 @@
 - **Description:**
 > The purposes of this project is to provide a better understanding on how to use grid for a layout.
 
+
 - **Developed with:**
 - [x] _Html5_
 - [x] _Css_
