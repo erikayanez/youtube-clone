@@ -4,12 +4,42 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 96vw;
-    height: 100vh;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "menu menu menu"
+    "about main main"
+    "about footer footer";
+}
+.top {
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+} 
+.top div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    border: 2px dashed gray;
 }
 
-.container {
+.top .img3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-left {
+    grid-area: about;
+}
+
+.banner1 {
     
 }
 /* .container {
