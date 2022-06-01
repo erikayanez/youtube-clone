@@ -1,10 +1,10 @@
-const div = document.querySelector(".main");
-// div.classList.add("big");
-div.classList.add("small", "big");
-console.log(div.classList);
-div.classList.remove("big");
-const classArr = ["classOne", "classTwo"];
-div.classList.add(...classArr);
+// const div = document.querySelector(".main");
+// // div.classList.add("big");
+// div.classList.add("small", "big");
+// console.log(div.classList);
+// div.classList.remove("big");
+// const classArr = ["classOne", "classTwo"];
+// div.classList.add(...classArr);
 const theme = () => {
   const checkbox = document.querySelector("#light-dark").checked;
   const body = document.querySelector("body");

@@ -9,7 +9,29 @@ body {
     width: 98vw;
     height: 110vh;
 }
+.main {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+/* .small {
+    font-size: 1rem;
+    background-color: aqua;
+} */
 
+.light {
+background-color: white;
+color: black;
+}
+.dark {
+background-color: black;
+color: white;
+}
+
+/* .big {
+font-size: 3rem;
+background-color: pink;
+} */
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
